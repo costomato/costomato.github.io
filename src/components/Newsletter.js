@@ -4,7 +4,7 @@ export const Newsletter = () => {
 
   return (
     <Col lg={12}>
-      <div className="newsletter-bx wow slideInUp">
+      <div className="newsletter-bx wow slideInUp text-center">
         <Row className="align-items-center">
           <Col lg={12} md={6} xl={5}>
             <h1>Hire me!!</h1>

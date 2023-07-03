@@ -13,6 +13,11 @@ export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [isNavbarToggled, setIsNavbarToggled] = useState(false);
+
+  const handleNavbarToggle = () => {
+    setIsNavbarToggled(!isNavbarToggled);
+  };
 
   useEffect(() => {
     const onScroll = () => {
@@ -34,12 +39,12 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="md" className={`${scrolled ? "scrolled" : ""} ${isNavbarToggled ? "toggled" : ""}`}>
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavbarToggle}>
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">

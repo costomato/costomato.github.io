@@ -16,7 +16,7 @@ export const Hobbies = () => {
     },
     {
       imageSrc: "https://cdn.dribbble.com/users/3768006/screenshots/11274674/media/aa6cf562dcdf51cb408b41ae4dcc3915.png?compress=1&resize=400x300&vertical=center",
-      title: "Classical music:",
+      title: "Appreciating classical music:",
       description: "Finding solace and inspiration in classical compositions, enriching my soul with their profound harmonies and expressions.",
     },
   ]

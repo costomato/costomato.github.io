@@ -40,6 +40,7 @@ export const Skills = () => {
     { text: "Dart", innerImg: "https://user-images.githubusercontent.com/25181517/186150304-1568ffdf-4c62-4bdc-9cf1-8d8efcea7c5b.png" },
     { text: "Ruby", innerImg: "https://user-images.githubusercontent.com/25181517/192603745-7d34df9e-7756-4756-a539-6a61badf7a80.png" },
     { text: "Typescript", innerImg: "https://devicons.railway.app/i/typescript.svg" },
+    { text: "Elixir", innerImg: "https://devicons.railway.app/i/elixir.svg" },
   ];
 
   const technologies = [
