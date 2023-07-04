@@ -78,8 +78,8 @@ export const Skills = () => {
                 {programming.map((item, index) => (
                   <div className="item" key={index}>
                     <div className="outer-image">
-                      <img src={outline} alt="Outer Image" />
-                      <img src={item.innerImg} alt="Inner Image" className="inner-image" />
+                      <img src={outline} alt="outer_img" />
+                      <img src={item.innerImg} alt="inner_img" className="inner-image" />
                     </div>
                     <h5>{item.text}</h5>
                   </div>
@@ -90,8 +90,8 @@ export const Skills = () => {
                 {technologies.map((item, index) => (
                   <div className="item" key={index}>
                     <div className="outer-image">
-                      <img src={outline} alt="Outer Image" />
-                      <img src={item.innerImg} alt="Inner Image" className="inner-image" />
+                      <img src={outline} alt="outer_img" />
+                      <img src={item.innerImg} alt="inner_img" className="inner-image" />
                     </div>
                     <h5>{item.text}</h5>
                   </div>
@@ -101,7 +101,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="skills_bg" />
     </section>
   )
 }

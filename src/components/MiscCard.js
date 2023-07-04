@@ -5,7 +5,7 @@ export const MiscCard = ({ title, description, imageSrc }) => {
     <Col size={12} sm={6} md={4}>
       <div className="misc-container">
         <div className="misc-image">
-            <img src={imageSrc} alt="Image" />
+            <img src={imageSrc} alt="hobby_img" />
         </div>
 
         <div className="misc-content">

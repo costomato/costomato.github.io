@@ -1,7 +1,7 @@
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png";
 import { MiscCard } from "./MiscCard";
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -49,7 +49,7 @@ export const Hobbies = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt='hobbies_bg' />
     </section>
   )
 }

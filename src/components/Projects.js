@@ -240,7 +240,7 @@ Offline application with 3k+ downloads.`,
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="project_bg"></img>
     </section>
   )
 }
