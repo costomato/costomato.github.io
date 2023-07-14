@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -59,6 +60,7 @@ export const NavBar = () => {
                 <a href="https://linkedin.com/in/costomato/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Linkedin icon" /></a>
                 <a href="https://github.com/costomato" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Playstore icon" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=7639092298347779320" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Github icon" /></a>
+                <a href="https://costomato.github.io/flyprosper" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Web" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
