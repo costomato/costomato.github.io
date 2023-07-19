@@ -31,6 +31,7 @@ export const Skills = () => {
     { text: "Javascript", innerImg: "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" },
     { text: "Kotlin", innerImg: "https://user-images.githubusercontent.com/25181517/185062810-7ee0c3d2-17f2-4a98-9d8a-a9576947692b.png" },
     { text: "Go", innerImg: "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/go.svg" },
+    { text: "Swift", innerImg: "https://devicons.railway.app/i/swift.svg" },
     { text: "MySQL", innerImg: "https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png" },
     { text: "HTML", innerImg: "https://devicons.railway.app/i/html5.svg" },
     { text: "CSS", innerImg: "https://devicons.railway.app/i/css3.svg" },
@@ -45,6 +46,7 @@ export const Skills = () => {
 
   const technologies = [
     { text: "Android", innerImg: "https://user-images.githubusercontent.com/25181517/192108895-20dc3343-43e3-4a54-a90e-13a4abbc57b9.png" },
+    { text: "iOS", innerImg: "https://user-images.githubusercontent.com/25181517/186711578-bf30cb30-40b7-4b45-95a5-bdf837c372e7.png" },
     { text: "TensorFlow", innerImg: "https://user-images.githubusercontent.com/25181517/223639822-2a01e63a-a7f9-4a39-8930-61431541bc06.png" },
     { text: "MS Azure", innerImg: "https://user-images.githubusercontent.com/25181517/183911544-95ad6ba7-09bf-4040-ac44-0adafedb9616.png" },
     { text: "Node.js", innerImg: "https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" },
