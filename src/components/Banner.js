@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 import { useEffect, useState } from 'react';
 
 export const Banner = () => {
-  const toRotate = ["Android Developer", "Machine Learning Enthusiast", "Proficient Full Stack Developer", "Occasional Game Developer", "Blockchain Aficionado", "Inquisitive IoT Researcher", "Cybersecurity Explorer"];
+  const toRotate = ["Android Developer", "iOS Developer", "Machine Learning Enthusiast", "Proficient Full Stack Developer", "Occasional Game Developer", "Blockchain Aficionado", "Inquisitive IoT Researcher", "Cybersecurity Explorer"];
 
   const [isVisible, setIsVisible] = useState(false);
 
