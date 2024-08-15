@@ -130,10 +130,20 @@ Offline application with 3k+ downloads.`,
     {
       title: "Research paper",
       subtitle: "Title",
-      description: `Enhancing Trust and Security in IoT Architecture for Low-Cost Microcontroller Devices using Elliptic Curve Cryptography, 2023`,
-      hoverTitle: "Publication pending",
-      hoverDescription: "Awaiting IEEE decision",
+      description: `Enhancing Trust and Security in IoT Architecture for Low-Cost Microcontroller Devices using Elliptic Curve Cryptography`,
+      hoverTitle: "View work",
+      hoverDescription: "IJSREM link",
       imgUrl: "https://t4.ftcdn.net/jpg/05/39/20/87/360_F_539208762_CYFbH1IMlRZ43hSbBlBWGjaovDBnkC4z.jpg",
+      src: "https://ijsrem.com/download/enhancing-trust-and-security-in-iot-architecture-for-low-cost-microcontroller-devices-using-elliptic-curve-cryptography/"
+    },
+    {
+      title: "Research paper",
+      subtitle: "Title",
+      description: `Implementation and Enhancement of SEDA G.Tech's WhizPad Mattress System`,
+      hoverTitle: "View work",
+      hoverDescription: "Research gate link",
+      imgUrl: "https://t4.ftcdn.net/jpg/05/39/20/87/360_F_539208762_CYFbH1IMlRZ43hSbBlBWGjaovDBnkC4z.jpg",
+      src: "https://www.researchgate.net/publication/379021961_Implementation_and_Enhancement_of_SEDA_GTech's_WhizPad_Mattress_System"
     },
     {
       title: "Experiment ToDo List",

@@ -19,6 +19,11 @@ export const Hobbies = () => {
       title: "Appreciating classical music:",
       description: "Finding solace and inspiration in classical compositions, enriching my soul with their profound harmonies and expressions.",
     },
+    {
+      imageSrc: "https://cdni.iconscout.com/illustration/premium/thumb/professional-boxing-competition-illustration-download-in-svg-png-gif-file-formats--fight-fighting-sports-equipment-boxer-sport-part-1-pack-games-illustrations-7402817.png",
+      title: "Boxing Enthusiast & Gold Medalist:",
+      description: "Passionate about boxing, I earned a gold medal through dedication and skill, demonstrating my commitment to the sport and strategic excellence.",
+    },
   ]
 
   return (
