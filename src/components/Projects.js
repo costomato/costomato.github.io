@@ -6,6 +6,52 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
+  const workExperience = [
+    {
+      title: "TruckIt App LLC",
+      subtitle: "Fullstack Developer (Florida, USA - remote)",
+      description: `Maintaining native Android (Kotlin) and iOS (Swift) apps for both drivers and users.
+  Working on backend in PHP Laravel.
+  Overseeing MySQL database, and AWS infrastructure.`,
+      hoverDescription: "January 2024 - present",
+      // hoverTitle: "Click here to explore my experience",
+      imgUrl: "https://www.truckit-app.com/img/Logo-Truck-It-.png",
+      // src: "/truckit-experience"
+    },
+    {
+      title: "Gerontechnology Research Center (SEDA G-Tech)",
+      subtitle: "R&D Intern (Taoyuan, Taiwan - onsite): under distinguished Professor Yeh-Liang Hsu 徐業良",
+      description: `Focused on WhizPad—a health monitoring system for the elderly.
+  Migrated infrastructure from AWS to GCP.
+  Worked on IoT, mobile, and web app integration.`,
+      hoverDescription: "September 2023 - February 2024",
+      // hoverTitle: "Click here to explore my experience",
+      imgUrl: "https://qs-gen.com/wp-content/uploads/2021/01/P1120107-S.jpg",
+      // src: "/sedagtech-experience"
+    },
+    {
+      title: "Xorvix (formerly Flyprosper)",
+      subtitle: "Founder & Software Developer (India)",
+      description: `Working on various technology-driven projects.
+  Focusing on software development and system optimization.
+  Leveraging cutting-edge technologies to deliver solutions.`,
+      hoverDescription: "Ongoing",
+      // hoverTitle: "Click here to explore my experience",
+      imgUrl: "https://xorvix.com/homepage.jpg",
+      // src: "/xorvix-experience"
+    },
+    {
+      title: "Ripetech Solutions",
+      subtitle: "Android Developer (New Delhi, India - remote)",
+      description: `Worked on Digital Register app, developed in Java with Volley.
+  Maintained and debugged the app, trained interns in native Android development.`,
+      hoverDescription: "October 2021 - December 2021",
+      // hoverTitle: "Click here to explore my experience",
+      imgUrl: "https://content3.jdmagicbox.com/comp/def_content/computer-software-developers/shutterstock-124888153-computer-software-developers-2-7jljr.jpg",
+      // src: "/ripetech-experience"
+    },
+  ];
+
   const androidProjects = [
     {
       title: "TMS (Tuition Management System)",
@@ -167,6 +213,25 @@ Offline application with 3k+ downloads.`,
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>My Works</h2>
                   <p>
+                    <span>Experience</span>
+                    <br /><br />
+                    <b>Innovating in the Digital Space</b>
+                    <br />
+                    Throughout my career, I've been at the forefront of technology, blending creativity and technical expertise to drive impactful projects. My work spans various domains, where I focus on delivering efficient, scalable solutions that meet real-world needs. I thrive in dynamic environments, constantly pushing boundaries to explore new possibilities and deliver meaningful results.
+                  </p>
+                  <Row className="card-container">
+                    {
+                      workExperience.map((project, index) => {
+                        return (
+                          <ProjectCard
+                            key={index}
+                            {...project}
+                          />
+                        )
+                      })
+                    }
+                  </Row>
+                  <p style={{ marginTop: "40px", marginBottom: "40px" }}>
                     <span>Projects</span>
                     <br /><br />
                     <b>Embarking on a Journey of Innovation: Exploring My Works</b>
