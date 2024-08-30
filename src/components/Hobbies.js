@@ -24,6 +24,12 @@ export const Hobbies = () => {
       title: "Boxing Enthusiast & Gold Medalist:",
       description: "Passionate about boxing, I earned a gold medal through dedication and skill, demonstrating my commitment to the sport and strategic excellence.",
     },
+    {
+      imageSrc: "https://cdn-icons-png.flaticon.com/512/3408/3408543.png",
+      title: "Trading:",
+      description: "Engaging in financial markets, analyzing trends, and making informed decisions to grow my investments and stay ahead in the game.",
+    },
+  
   ]
 
   return (

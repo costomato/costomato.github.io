@@ -4,53 +4,57 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export const workExperience = [
+  {
+    id: "truckit",
+    title: "TruckIt App LLC",
+    subtitle: "Fullstack Developer (Florida, USA - remote)",
+    description: `Maintaining native Android (Kotlin) and iOS (Swift) apps for both drivers and users.
+Working on backend in PHP Laravel.
+Overseeing MySQL database, and AWS infrastructure.`,
+    hoverDescription: "January 2024 - present",
+    // hoverTitle: "Click here to explore my experience",
+    imgUrl: "https://www.truckit-app.com/img/Logo-Truck-It-.png",
+    // src: "/truckit-experience"
+  },
+  {
+    id: "grc",
+    title: "Gerontechnology Research Center (SEDA G-Tech)",
+    subtitle: "R&D Intern (Taoyuan, Taiwan - onsite): under distinguished Professor Yeh-Liang Hsu 徐業良",
+    description: `Focused on WhizPad—a health monitoring system for the elderly.
+Migrated infrastructure from AWS to GCP.
+Worked on IoT, mobile, and web app integration.`,
+    hoverDescription: "September 2023 - February 2024",
+    // hoverTitle: "Click here to explore my experience",
+    imgUrl: "https://qs-gen.com/wp-content/uploads/2021/01/P1120107-S.jpg",
+    // src: "/experience/grc"
+  },
+  {
+    id: "xorvix",
+    title: "Xorvix (formerly Flyprosper)",
+    subtitle: "Founder & Software Developer (India)",
+    description: `Working on various technology-driven projects.
+Focusing on software development and system optimization.
+Leveraging cutting-edge technologies to deliver solutions.`,
+    hoverDescription: "Ongoing",
+    // hoverTitle: "Click here to explore my experience",
+    imgUrl: "https://xorvix.com/homepage.jpg",
+    // src: "/xorvix-experience"
+  },
+  {
+    id: "ripetech",
+    title: "Ripetech Solutions",
+    subtitle: "Android Developer (New Delhi, India - remote)",
+    description: `Worked on Digital Register app, developed in Java with Volley.
+Maintained and debugged the app, trained interns in native Android development.`,
+    hoverDescription: "October 2021 - December 2021",
+    // hoverTitle: "Click here to explore my experience",
+    imgUrl: "https://content3.jdmagicbox.com/comp/def_content/computer-software-developers/shutterstock-124888153-computer-software-developers-2-7jljr.jpg",
+    // src: "/ripetech-experience"
+  },
+];
 
-  const workExperience = [
-    {
-      title: "TruckIt App LLC",
-      subtitle: "Fullstack Developer (Florida, USA - remote)",
-      description: `Maintaining native Android (Kotlin) and iOS (Swift) apps for both drivers and users.
-  Working on backend in PHP Laravel.
-  Overseeing MySQL database, and AWS infrastructure.`,
-      hoverDescription: "January 2024 - present",
-      // hoverTitle: "Click here to explore my experience",
-      imgUrl: "https://www.truckit-app.com/img/Logo-Truck-It-.png",
-      // src: "/truckit-experience"
-    },
-    {
-      title: "Gerontechnology Research Center (SEDA G-Tech)",
-      subtitle: "R&D Intern (Taoyuan, Taiwan - onsite): under distinguished Professor Yeh-Liang Hsu 徐業良",
-      description: `Focused on WhizPad—a health monitoring system for the elderly.
-  Migrated infrastructure from AWS to GCP.
-  Worked on IoT, mobile, and web app integration.`,
-      hoverDescription: "September 2023 - February 2024",
-      // hoverTitle: "Click here to explore my experience",
-      imgUrl: "https://qs-gen.com/wp-content/uploads/2021/01/P1120107-S.jpg",
-      // src: "/sedagtech-experience"
-    },
-    {
-      title: "Xorvix (formerly Flyprosper)",
-      subtitle: "Founder & Software Developer (India)",
-      description: `Working on various technology-driven projects.
-  Focusing on software development and system optimization.
-  Leveraging cutting-edge technologies to deliver solutions.`,
-      hoverDescription: "Ongoing",
-      // hoverTitle: "Click here to explore my experience",
-      imgUrl: "https://xorvix.com/homepage.jpg",
-      // src: "/xorvix-experience"
-    },
-    {
-      title: "Ripetech Solutions",
-      subtitle: "Android Developer (New Delhi, India - remote)",
-      description: `Worked on Digital Register app, developed in Java with Volley.
-  Maintained and debugged the app, trained interns in native Android development.`,
-      hoverDescription: "October 2021 - December 2021",
-      // hoverTitle: "Click here to explore my experience",
-      imgUrl: "https://content3.jdmagicbox.com/comp/def_content/computer-software-developers/shutterstock-124888153-computer-software-developers-2-7jljr.jpg",
-      // src: "/ripetech-experience"
-    },
-  ];
+export const Projects = () => {
 
   const androidProjects = [
     {
@@ -192,13 +196,22 @@ Offline application with 3k+ downloads.`,
       src: "https://www.researchgate.net/publication/379021961_Implementation_and_Enhancement_of_SEDA_GTech's_WhizPad_Mattress_System"
     },
     {
+      title: "Instructables Publication",
+      subtitle: "Smart Mobile-Controlled Motor Pump Starter",
+      description: `A guide to transforming a traditional motor pump starter into a smart device controlled via WIFi & a mobile phone, using NodeMCU & a relay module.`,
+      hoverTitle: "View Instructable",
+      hoverDescription: "Instructables link",
+      imgUrl: "https://t4.ftcdn.net/jpg/05/39/20/87/360_F_539208762_CYFbH1IMlRZ43hSbBlBWGjaovDBnkC4z.jpg",
+      src: "https://www.instructables.com/Easiest-and-Cheapest-Way-to-Convert-an-Old-DOL-Mot/"
+    },
+    {
       title: "Experiment ToDo List",
       subtitle: "Simple CLI based ToDo List application",
       description: `Implemented in 16 different languages.
       Compared the performance of each language with 16 test cases for each.`,
       hoverTitle: "View work",
       hoverDescription: "Github link",
-      imgUrl: "https://t4.ftcdn.net/jpg/05/39/20/87/360_F_539208762_CYFbH1IMlRZ43hSbBlBWGjaovDBnkC4z.jpg",
+      imgUrl: "https://www.dicsinnovatives.com/blog/wp-content/uploads/2024/06/top10lan.jpg",
       src: "https://github.com/costomato/ToDo-List-App-CLI"
     },
   ]
