@@ -625,6 +625,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 130px;
   border-radius: 100px;
   margin-right: 15px;
+  object-fit: cover;
 }
 .misc-content {
   position: relative;

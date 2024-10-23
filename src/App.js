@@ -8,7 +8,7 @@ import { Projects, workExperience } from "./components/Projects";
 import { Hobbies } from "./components/Hobbies";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import WorkDetailPage from './pages/WorkDetailPage';
+import { WorkDetailPage } from './pages/WorkDetailPage';
 
 function HomePage() {
   return (

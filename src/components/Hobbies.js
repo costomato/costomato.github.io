@@ -29,6 +29,12 @@ export const Hobbies = () => {
       title: "Trading:",
       description: "Engaging in financial markets, analyzing trends, and making informed decisions to grow my investments and stay ahead in the game.",
     },
+    {
+      imageSrc: "https://cdni.iconscout.com/illustration/premium/thumb/writer-at-home-illustration-download-in-svg-png-gif-file-formats--freelance-novelist-creative-writing-people-illustrations-3480298.png",
+      title: "Writing:",
+      description: "Writing very occasionally and sharing my memories in both English and Hindi. I've recently started publishing my stories on my website. Click here to view.",
+      url: "https://memories.kaustubhdubey.com/"
+    },
   
   ]
 
