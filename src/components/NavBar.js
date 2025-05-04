@@ -60,7 +60,7 @@ export const NavBar = () => {
                 <a href="https://linkedin.com/in/costomato/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Linkedin icon" /></a>
                 <a href="https://github.com/costomato" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Playstore icon" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=7639092298347779320" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Github icon" /></a>
-                <a href="https://costomato.github.io/flyprosper" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Web" /></a>
+                {/* <a href="https://costomato.github.io/flyprosper" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Web" /></a> */}
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
