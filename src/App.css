@@ -752,3 +752,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .newsletter-bx p {
   font-size: large;
 }
+
+.contact-info {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info a {
+  color: #fff493;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.loading-message {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
