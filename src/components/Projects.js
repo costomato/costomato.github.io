@@ -58,6 +58,18 @@ export const Projects = () => {
 
   const androidProjects = [
     {
+      title: "SyncPlay",
+      subtitle: "Open source video synchronisation app",
+      description: `Kotlin fullstack app.
+      Ktor network library for both frontend and backend.
+      No lags and latency issues.
+      Received 100+ downloads within the first week of launch.`,
+      hoverTitle: "Download",
+      hoverDescription: "Play store link",
+      imgUrl: "https://play-lh.googleusercontent.com/g9pwkCnyU2WG_nHwUyBY5XJ-pkE6O7MjnpqZcj8KJF4CRCCghwuSJXkhb6yEl6PucAKk=w240-h480-rw",
+      src: "https://play.google.com/store/apps/details?id=com.flyprosper.syncplay"
+    },
+    {
       title: "TMS (Tuition Management System)",
       subtitle: "Android app to manage tuition batches/fees",
       description: `XML frontend with JAVA.
@@ -83,18 +95,6 @@ Offline application with 3k+ downloads.`,
       imgUrl: "https://play-lh.googleusercontent.com/QeMgQkEPPIu2LxeeGu6pHqclyW-hKmHV2MxqVHAko2CldUhIUuotZIcz5gLwg2touWEs=w416-h235-rw",
       src: "https://play.google.com/store/apps/details?id=com.flyprosper.news"
     },
-    {
-      title: "SyncPlay",
-      subtitle: "Open source video synchronisation app",
-      description: `Kotlin fullstack app.
-      Ktor network library for both frontend and backend.
-      No lags and latency issues.
-      Received 100+ downloads within the first week of launch.`,
-      hoverTitle: "Download",
-      hoverDescription: "Play store link",
-      imgUrl: "https://play-lh.googleusercontent.com/g9pwkCnyU2WG_nHwUyBY5XJ-pkE6O7MjnpqZcj8KJF4CRCCghwuSJXkhb6yEl6PucAKk=w240-h480-rw",
-      src: "https://play.google.com/store/apps/details?id=com.flyprosper.syncplay"
-    },
   ];
 
   const gameProjects = [
@@ -119,6 +119,17 @@ Offline application with 3k+ downloads.`,
       hoverDescription: "Play store link",
       imgUrl: "https://play-lh.googleusercontent.com/00yAjO2hjF6XA1znqwpDveZ0j0tbEOtuJGkYesiUUlqk9BXSrij4LcB8fMlr7GK-Zw=w416-h235-rw",
       src: "https://play.google.com/store/apps/details?id=com.flyprosper.tic_tac_toe"
+    },
+    {
+      title: "Misere TicTacToe Bluetooth",
+      subtitle: "Misere TicTacToe mobile game with multiple modes",
+      description: `Jetpack Compose for frontend logic.
+      Made with Kotlin.
+      Minimax with alpha-beta pruning algorithm for unbeatable AI.`,
+      hoverTitle: "Download",
+      hoverDescription: "Play store link",
+      imgUrl: "https://play-lh.googleusercontent.com/7ESrgOSuOZgdBjAP8WGxDVhKDqunUYssxZ5HNeVa_fD-ChEhiGJDjyQBqxzPeLcM37fN6vCmdzpdlVtXrSFz=w240-h480-rw",
+      src: "https://play.google.com/store/apps/details?id=com.team25.miseretictactoe"
     },
   ];
   const otherProjects = [

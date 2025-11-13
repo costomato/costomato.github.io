@@ -48,8 +48,7 @@ export const Banner = () => {
                   }}
                 />
               </h2>
-              <p>Tech Visionary: Kaustubh, Unleashing Innovation.
-                Kaustubh: a dynamic software engineer redefining the realm of technology. With unparalleled adaptability and a thirst for knowledge, he effortlessly navigates diverse programming languages, frameworks, and cutting-edge advancements. From machine learning and computer vision to cybersecurity, cryptography and IoT, Kaustubh's technical brilliance knows no bounds. Join him on an extraordinary journey where innovation meets determination, shaping the future of technology.</p>
+              <p>I am a software engineer with a broad interest in modern tech. Whether it’s apps, AI, or cybersecurity, I enjoy experimenting and building practical and impactful solutions. This space showcases some of the work I've been shaping over the years.</p>
 
               <a href="#connect" style={{ textDecoration: 'none' }}>
                 <button>Let’s Connect <ArrowRightCircle size={25} /></button>
